@@ -11,6 +11,7 @@ Di program ini juga terdapat penugasan untuk membedakan antara  penggunaan **Exc
 ## Cara Penggunaan Database
 Buat class java yang berisi program untuk CRUD (create, read, update, delete) kemudian hubungkan Netbeans dengan database di PostgreSql dan juga tambahkan liblary Postgre JDBC driver di projeck yang digunakan untuk program CRUD.
 kode program untuk menghubungkan databse dengan kode program java
+    
     String driver = "org.postgresql.Driver";
     String koneksi = "jdbc:postgresql://localhost:5432/Your database";
     String user = "postgres";
